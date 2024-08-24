@@ -1,12 +1,14 @@
 #include<stdio.h>
+
 void main()
+
 {
  	int left=0,n,x,i,mid,flag=0,time, right;
  	time++;
  	printf("Enter the value of n: ");
  	time++;
  	scanf("%d",&n);
-	time++;
+ 	time++;
  	int a[n];
  	printf("Enter array elements: ");
  	time++;
@@ -24,28 +26,28 @@ void main()
  	right=n-1;
  	while (left<=right)
  	{
-  		mid=(left+right)/2;
-  		time++;
-  		time++;
-  		time++;
-		if (x==a[mid])
-  		{
-   			printf("Element is presemt at %d",mid+1);
-   			time++;
-   			flag=1;
-   			time++;
-   			break;
-  		}
-  		else if(x>a[mid])
-  		{ 
-   			left=mid+1;
-   			time++;
-  		}
-  		else if(x<a[mid])
-  		{
-   			right=mid-1;
-   			time++;
-  		}
+  	mid=(left+right)/2;
+  	time++;
+  	time++;
+  	time++;
+  	if (x==a[mid])
+  	{
+   		printf("Element is present at %d",mid+1);
+   		time++;
+   		flag=1;
+   		time++;
+   		break;
+  	}
+ 	else if(x>a[mid])
+  	{ 
+   		left=mid+1;
+   		time++;
+  	}
+  	else if(x<a[mid])
+  	{
+   		right=mid-1;
+   		time++;
+  	}
  	}
  	time++;
  	if (flag==0)
