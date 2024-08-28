@@ -2,7 +2,7 @@
 void main()
 {
     int left=0,n,x,i,mid,flag=0,time, right;
- 	time++;
+    time++;
  	printf("Enter the value of n: ");
  	time++;
  	scanf("%d",&n);
