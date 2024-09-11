@@ -1,9 +1,5 @@
 #include<stdio.h>
-int n;
-int queue[20];
-int front=0;
-int rear=0;
-int count=0;
+int n,queue[20],front=0,rear=0,count=0;
 void enqueue (int x)
 {
 	if (count==n)
