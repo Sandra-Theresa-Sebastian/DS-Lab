@@ -15,7 +15,15 @@ void main()
 {
 int ch;
 do{
-  printf("enter the choice\t1)insert at front\t2)insert at end\t3)insert at any position\t4)delete at front\t5)delete at end\t6)delete at any position\t7)display\t8)exit\n");
+  printf("Enter the choice\n");
+  printf("1)Insert at front\n");
+  printf("2)Insert at end\n");
+  printf("3)Insert at any position\n");
+  printf("4)Delete at front\n");
+  printf("5)Delete at end\n");
+  printf("6)Delete at any position\n");
+  printf("7)Display\n");
+  printf("8)Exit\n");
   scanf("%d",&ch);
   switch(ch){
     case 1:{
@@ -193,13 +201,3 @@ void display(){
    printf("\n");
    }
 }
-   
-    
-    
-    
-    
-    
-    
-
-
-
