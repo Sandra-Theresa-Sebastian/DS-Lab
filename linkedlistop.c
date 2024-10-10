@@ -106,7 +106,7 @@ void insertion_at_any_position(){
    printf("Enter the data to be added: \n");
    scanf("%d",&item);
    temp=(struct node*)malloc(sizeof(struct node));
-   printf("Enter the data after which value to added: \n");
+   printf("Enter the data after which value to be added: \n");
    scanf("%d",&key);
    ptr=head;
    while(ptr->data!=key&&ptr->link!=NULL){
@@ -203,4 +203,3 @@ void display(){
    printf("\n");
    }
 }
-
